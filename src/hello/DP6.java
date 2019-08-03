@@ -1,5 +1,5 @@
 package hello;
-
+//knapsack problem naive recursive approach
 public class DP6 
 {
 	
@@ -12,10 +12,6 @@ public class DP6
 			return knapsack(val,wt,W,n-1);
 		else
 			return Math.max((val[n-1]+knapsack(val,wt,W-wt[n-1],n-1)),(knapsack(val,wt,W,n-1)));
-		
-		
-		
-		
 	}
 	public static void main(String [] args)
 	{
