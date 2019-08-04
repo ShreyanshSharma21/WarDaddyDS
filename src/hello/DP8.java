@@ -17,8 +17,8 @@ public class DP8
 	
 	public static void main(String [] args)
 	{
-	   String s1 = "Shreyansh";
-	   String s2 = "Shreyash";
+	   String s1 = "tdtidyufkhjvkd";
+	   String s2 = "gfxdzyrxfjgcjf";
 	   
 	   char c1[] = s1.toCharArray();
 	   char c2[] = s2.toCharArray();
