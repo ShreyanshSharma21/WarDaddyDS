@@ -46,10 +46,6 @@ public class DP10
 	
 	
 }
-	
-	
-	
-	
 	public static void main (String [] args)
 	{
 		String s1 ="Shreyansh";
