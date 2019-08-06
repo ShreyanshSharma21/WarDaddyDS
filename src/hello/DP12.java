@@ -13,16 +13,8 @@ public class DP12
 			return lcs(c, i+1, j-1) + 2;
 
 		return Math.max(lcs(c, i+1, j),lcs(c, i, j-1));
-
-
-
 	}
-
-	
-
-
-
- public static void main(String[] args)
+	public static void main(String[] args)
 	{
 		String s = "ShreyanshSharma";
 		char c[] = s.toCharArray();
