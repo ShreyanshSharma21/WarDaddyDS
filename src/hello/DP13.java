@@ -1,5 +1,6 @@
 package hello;
 //pallindromic lcs dp approach
+//note the 2 d matrix that it fills is only upper triangular wasting the lower half 
 public class DP13 
 {
 	public static int lcs(char c[], int n)
@@ -30,10 +31,6 @@ public class DP13
 		
 		
 	}
-	
-	
-	
-	
 	public static void main (String [] args)
 	{
 		String s = "shreyansh";
