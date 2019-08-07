@@ -25,7 +25,6 @@ public class DP14
 					dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
 			}
 		}
-		
 		int index = dp[n][m];
 		int i = n ; int j = m;
 		char lcss[] = new char[index + 1];
@@ -44,25 +43,12 @@ public class DP14
 				i--;
 			else 
 				j--;
-			
-				
 		}
-		
-		
 		for(int k = 0 ; k < lcss.length; k++) {
 			System.out.print(lcss[k]);
 		}
 		System.out.println();
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-	
 	public static void lcsPrint(String s)
 	{
 		String s1 = s;
